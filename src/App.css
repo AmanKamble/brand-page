@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap');
 
-:root{
-    --red : #d01c28;
+:root {
+    --red: #d01c28;
     --gray: #2e2e2e;
 }
 
@@ -11,7 +11,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-button{
+button {
     all: unset;
     padding: 6px 16px;
     background: var(--red);
@@ -20,7 +20,7 @@ button{
     font-weight: 500;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,18 +29,18 @@ nav{
     height: 72px;
 }
 
-nav > ul {
+nav>ul {
     display: flex;
     list-style: none;
     gap: 24px;
 }
 
-nav > ul a{
+nav>ul a {
     text-decoration: none;
     color: black;
 }
 
-main{
+main {
     max-width: 1280px;
     display: flex;
     justify-content: center;
@@ -48,17 +48,46 @@ main{
     margin: 0 auto;
     height: 675px;
 }
-main > .container {
+
+main>.container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-main > .container text{
+
+main>.container .text {
     width: 600px;
     height: 100%;
 }
+main>.container .text h1{
+    margin-bottom: 20px;
+}
+main>.container .text p{
+    margin-bottom: 20px;
+}
+main>.container .text button{
+    width: 180px;
+    height: 40px;
+    text-align: center;
+}
+main>.container .category {
+    background: white;
+    color: black;
+    border: 1px solid black;
+    margin-left: 40px;
+}
 
-main > .container image{
+.bottom{
+    margin-top: 50px;
+}
+.bottom > p{
+    color: gray;
+    font-size: 14px;
+}
+.bottom img{
+    margin: 10px;
+}
+main>.container image {
     width: 558px;
     height: 100%;
 }
